@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>role configuration</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>My user ID</string>
+			<key>Key</key>
+			<string>setting_myid</string>
+			<key>DefaultValue</key>
+			<string>alice</string>
+			<key>Titles</key>
+			<array>
+				<string>alice</string>
+				<string>bob</string>
+				<string>jim</string>
+				<string>cecila</string>
+				<string>emma</string>
+				<string>mary</string>
+				<string>wang</string>
+				<string>lee</string>
+				<string>Tong</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>alice</string>
+				<string>bob</string>
+				<string>jim</string>
+				<string>cecila</string>
+				<string>emma</string>
+				<string>mary</string>
+				<string>wang</string>
+				<string>lee</string>
+				<string>Tong</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Friend&apos;s ID</string>
+			<key>Key</key>
+			<string>setting_friendID</string>
+			<key>DefaultValue</key>
+			<string>bob</string>
+			<key>Titles</key>
+			<array>
+				<string>alice</string>
+				<string>bob</string>
+				<string>jim</string>
+				<string>cecila</string>
+				<string>emma</string>
+				<string>mary</string>
+				<string>wang</string>
+				<string>lee</string>
+				<string>Tong</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>alice</string>
+				<string>bob</string>
+				<string>jim</string>
+				<string>cecila</string>
+				<string>emma</string>
+				<string>mary</string>
+				<string>wang</string>
+				<string>lee</string>
+				<string>Tong</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>GPS CONFIGURATION</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>GPS Precision</string>
+			<key>Key</key>
+			<string>setting_gpsprecision</string>
+			<key>DefaultValue</key>
+			<integer>1</integer>
+			<key>Titles</key>
+			<array>
+				<string>Best For Navigation</string>
+				<string>Best</string>
+				<string>Nearest Ten Meters</string>
+				<string>Hundred Meters</string>
+				<string>Kilometer</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+			</array>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
