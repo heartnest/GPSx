@@ -1,4 +1,4 @@
 GPSx
 ====
 
-measuring geographic distance, speed, course using iOS core location.
+measuring geographic distance, speed, course etc using iOS core location.
